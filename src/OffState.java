@@ -6,7 +6,5 @@ public class OffState implements State {
 	return false;	
    }
 
-   public String toString(){
-      return "Stop State";
-   }
+
 }
