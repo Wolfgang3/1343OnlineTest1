@@ -1,5 +1,5 @@
 
 public interface Button {
-	public void press();
+	public boolean click();
 }
 

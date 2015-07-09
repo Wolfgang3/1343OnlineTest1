@@ -7,4 +7,16 @@ public class OnLamp  implements Lamp{
 		context.setState(on_state);
 	}
 
+	@Override
+	public void lighton() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void lightoff() {
+		// TODO Auto-generated method stub
+		
+	}
+
 }
