@@ -7,15 +7,15 @@ public ControlUnit(){
 }
 
 Context c=new Context();
-Constituency con = new Constituency("Ponda");
+Constituency cont = new Constituency("Mapusa");
 
 
 public void addCandidate(Candidate c){
-	con.addCandidate(c);
+	cont.addCandidate(c);
 }
 
 public void getCandidates(){
-	con.getCandidates();
+	cont.getCandidates();
 }
 
 public void switchstate(){

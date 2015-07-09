@@ -1,10 +1,10 @@
 
 public class OnLamp  implements Lamp{
 	 Context context = new Context();
-	 OnState ontate = new OnState();
+	 OnState on_state = new OnState();
 	 
 	public void on() {
-		context.setState(ontate);
+		context.setState(on_state);
 	}
 
 }
